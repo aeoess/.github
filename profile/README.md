@@ -12,7 +12,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 |---------|------|---------|
 | [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 35 protocol modules, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
 | [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 61 tools across all 35 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
-| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (73 adversarial scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
+| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
@@ -27,7 +27,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora)
 8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking
 
-Plus 19 extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation.
+Plus 22 extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection.
 
 ## Research
 
@@ -38,6 +38,6 @@ Plus 19 extended modules: Principal Identity, Reputation-Gated Authority (Bayesi
 
 - 🌐 [aeoess.com](https://aeoess.com) — project home
 - 🔬 [Protocol deep-dive](https://aeoess.com/passport.html) — layers, tests, MCP tools, code examples
-- 🛡 [Threat model](https://aeoess.com/threat-model.html) — 73 adversarial scenarios mapped to test files
+- 🛡 [Threat model](https://aeoess.com/threat-model.html) — 50 adversarial scenarios mapped to test files
 - 🤖 [LLM endpoint](https://aeoess.com/llms-full.txt) — machine-readable full protocol reference
 - 📧 tima@aeoess.com
