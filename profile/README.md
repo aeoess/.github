@@ -16,7 +16,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 ## The Protocol
 
-**35 modules. 862 tests. Zero heavy dependencies. Running code. MCP server included.**
+**35 modules. 866 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 7 principles, graduated enforcement (inline/audit/warn)
