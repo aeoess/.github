@@ -12,7 +12,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 |---------|------|---------|
 | [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 37 core modules + 30 v2 constitutional modules, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
 | [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 72 tools across 37 core + 30 v2 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
-| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
+| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
@@ -21,13 +21,21 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 7 principles, graduated enforcement (inline/audit/warn)
 3. **Beneficiary Attribution** — Merkle proofs, contribution tracking through delegation chains
-4. **Agent Agora** — Protocol-native signed message feeds with topics and threading
+4. **Signed Communication (Agora)** — Per-instance signed message protocol with topics and threading
 5. **Intent Architecture** — 3-signature policy chain (intent → evaluation → receipt)
 6. **Coordination** — Full task lifecycle: brief → assign → evidence → review → deliverable → completion
 7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora)
 8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking
 
-Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection, Data Source Registration & Access Receipts, Decision Semantics & Cross-Engine Interop, V2 Constitutional Framework (30 modules: 9 attack defenses including approval fatigue detection, effect enforcement, semantic drift, authority laundering audit, emergence detection; structural safeguards including separation of powers, constitutional amendment, circuit breakers, affected-party standing, root authority transition).
+Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection, Data Source Registration & Access Receipts, Decision Semantics & Cross-Engine Interop, V2 Constitutional Framework (32 modules: 9 attack defenses including approval fatigue detection, effect enforcement, semantic drift, authority laundering audit, emergence detection; structural safeguards including separation of powers, constitutional amendment, circuit breakers, affected-party standing, root authority transition).
+
+## Core vs Ecosystem
+
+**Core protocol (every deployment):** Agent identity (Ed25519), delegation chains, cascade revocation, Values Floor, 3-signature policy chain, ProxyGateway enforcement. These are the foundational layers.
+
+**Extended modules (pick what you need):** Coordination, commerce, DID/VC, EU AI Act, E2E encrypted messaging, task routing, reputation-gated authority, all 32 v2 constitutional modules. Use any combination.
+
+**Ecosystem services (fully opt-in):** Intent Network and Mingle run on public infrastructure at api.aeoess.com. No core protocol functionality depends on them.
 
 ## Research
 
