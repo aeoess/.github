@@ -10,13 +10,13 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 37 protocol modules, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 72 tools across all 37 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 37 core modules + 30 v2 constitutional modules, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 72 tools across 37 core + 30 v2 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
-**37 modules. 1073 tests. Zero heavy dependencies. Running code. MCP server included.**
+**37 core modules + 30 v2 constitutional modules. 1073 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 7 principles, graduated enforcement (inline/audit/warn)
@@ -27,7 +27,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora)
 8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking
 
-Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection, Data Source Registration & Access Receipts, Decision Semantics & Cross-Engine Interop, V2 Constitutional Governance (delegation versioning, outcome registration, anomaly detection, emergency pathways, fork-and-sunset migration, contextual attestation).
+Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection, Data Source Registration & Access Receipts, Decision Semantics & Cross-Engine Interop, V2 Constitutional Framework (30 modules: 9 attack defenses including approval fatigue detection, effect enforcement, semantic drift, authority laundering audit, emergence detection; structural safeguards including separation of powers, constitutional amendment, circuit breakers, affected-party standing, root authority transition).
 
 ## Research
 
