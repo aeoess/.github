@@ -27,7 +27,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora)
 8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking
 
-Plus 22 extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection.
+Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection, Data Source Registration & Access Receipts, Decision Semantics & Cross-Engine Interop, V2 Constitutional Governance (delegation versioning, outcome registration, anomaly detection, emergency pathways, fork-and-sunset migration, contextual attestation).
 
 ## Research
 
