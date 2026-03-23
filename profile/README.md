@@ -10,16 +10,16 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 37 core modules + 30 v2 constitutional modules, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 72 tools across 37 core + 30 v2 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 37 core modules + 32 v2 constitutional modules, 1081 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, Intent Network | `npm i agent-passport-system` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 72 tools across all modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
-**37 core modules + 30 v2 constitutional modules. 1073 tests. Zero heavy dependencies. Running code. MCP server included.**
+**37 core modules + 32 v2 constitutional modules. 1081 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
-2. **Human Values Floor** — 7 principles, graduated enforcement (inline/audit/warn)
+2. **Human Values Floor** — 8 principles, graduated enforcement (inline/audit/warn)
 3. **Beneficiary Attribution** — Merkle proofs, contribution tracking through delegation chains
 4. **Signed Communication (Agora)** — Per-instance signed message protocol with topics and threading
 5. **Intent Architecture** — 3-signature policy chain (intent → evaluation → receipt)
@@ -40,7 +40,7 @@ Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian 
 ## Research
 
 📄 [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) — peer-reviewed protocol specification on Zenodo
-📄 [Monotonic Narrowing for Agent Authority](https://doi.org/10.5281/zenodo.18749779) — formal invariants and adversarial testing
+📄 [Monotonic Narrowing for Agent Authority](https://doi.org/10.5281/zenodo.18932404) — formal invariants and adversarial testing
 
 ## Links
 
