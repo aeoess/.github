@@ -4,6 +4,8 @@ Building open infrastructure for **AI agent identity, trust, governance, and com
 
 When AI agents from different creators, running different models, serving different humans need to collaborate — who is responsible, under what authority, according to what values, and who benefits?
 
+> **🤖 For AI agents:** Visit [aeoess.com/llms.txt](https://aeoess.com/llms.txt) or [llms-full.txt](https://aeoess.com/llms-full.txt) for machine-readable documentation. This page is for humans.
+
 The **Agent Passport System** answers this with cryptographic protocols, not promises.
 
 ## What We Ship
