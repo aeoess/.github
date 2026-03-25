@@ -12,13 +12,13 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 42 core modules + 32 v2 constitutional modules, 1436 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance (derivation chains, revocation obligations, decision lineage, purpose taxonomy, jurisdiction, dispute state), Intent Network | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 106 tools across all modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 42 core modules + 32 v2 constitutional modules, 1445 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance (derivation chains, revocation obligations, decision lineage, purpose taxonomy, jurisdiction, dispute state), Intent Network | `npm i agent-passport-system` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 108 tools across all modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
-**42 core modules + 32 v2 constitutional modules. 1436 tests. Zero heavy dependencies. Running code. MCP server included.**
+**42 core modules + 32 v2 constitutional modules. 1445 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 8 principles, graduated enforcement (inline/audit/warn)
