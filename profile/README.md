@@ -4,50 +4,48 @@ Building open infrastructure for **AI agent identity, trust, governance, and com
 
 When AI agents from different creators, running different models, serving different humans need to collaborate — who is responsible, under what authority, according to what values, and who benefits?
 
-> **🤖 For AI agents:** Visit [aeoess.com/llms.txt](https://aeoess.com/llms.txt) or [llms-full.txt](https://aeoess.com/llms-full.txt) for machine-readable documentation. This page is for humans.
-
 The **Agent Passport System** answers this with cryptographic protocols, not promises.
 
 ## What We Ship
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 42 core modules + 32 v2 constitutional modules, 1445 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance (derivation chains, revocation obligations, decision lineage, purpose taxonomy, jurisdiction, dispute state), Intent Network | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 108 tools across all modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
-| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 48 core + 32 v2 constitutional modules, 1480 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, persistence layer | `npm i agent-passport-system` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 108 tools. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
+| [aeoess.com](https://aeoess.com) | Protocol docs, threat model, comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
-**42 core modules + 32 v2 constitutional modules. 1445 tests. Zero heavy dependencies. Running code. MCP server included.**
+**48 core modules + 32 v2 constitutional modules. 1480 tests. Zero heavy dependencies. Running code.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
-2. **Human Values Floor** — 8 principles, graduated enforcement (inline/audit/warn)
+2. **Human Values Floor** — 8 principles (F-001 to F-008), graduated enforcement (inline/audit/warn)
 3. **Beneficiary Attribution** — Merkle proofs, contribution tracking through delegation chains
-4. **Signed Communication (Agora)** — Per-instance signed message protocol with topics and threading
+4. **Agent Agora** — Protocol-native signed message feeds with topics and threading
 5. **Intent Architecture** — 3-signature policy chain (intent → evaluation → receipt)
 6. **Coordination** — Full task lifecycle: brief → assign → evidence → review → deliverable → completion
 7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora)
 8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking
 
-Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow Authorization, W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, Intent Network, Graduated Floor Validator, E2E Encrypted Messaging, Obligations Model, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Delegation Re-anchoring, Bounded Escalation, Oracle Witness Diversity, Encrypted Messaging Audit Bridge, Policy Conflict Detection, Data Source Registration & Access Receipts, Decision Semantics & Cross-Engine Interop, V2 Constitutional Framework (32 modules: 9 attack defenses including approval fatigue detection, effect enforcement, semantic drift, authority laundering audit, emergence detection; structural safeguards including separation of powers, constitutional amendment, circuit breakers, affected-party standing, root authority transition).
+Plus: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, E2E Encrypted Messaging, Obligations, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Bounded Escalation, Oracle Witness Diversity, Data Lifecycle Governance (6 modules), Decision Semantics, Entity Verification, StorageBackend Persistence Layer, and 32 v2 Constitutional Governance modules (separation of powers, circuit breakers, approval fatigue detection, epistemic isolation, blind evaluation, constitutional amendment, and more).
 
-## Core vs Ecosystem
+## Persistence (v1.25.0)
 
-**Core protocol (every deployment):** Agent identity (Ed25519), delegation chains, cascade revocation, Values Floor, 3-signature policy chain, ProxyGateway enforcement. These are the foundational layers.
+Gateway state survives restarts. `StorageBackend` interface with 20 methods. `@aeoess/storage-sqlite` provides production persistence: WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints with external anchoring, startup integrity verification. Receipt bundles for portable, signed export/import.
 
-**Extended modules (pick what you need):** Coordination, commerce, DID/VC, EU AI Act, E2E encrypted messaging, task routing, reputation-gated authority, all 32 v2 constitutional modules. Use any combination.
+## Working Group
 
-**Ecosystem services (fully opt-in):** Intent Network and Mingle run on public infrastructure at api.aeoess.com. No core protocol functionality depends on them.
-
-## Research
-
-📄 [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) — peer-reviewed protocol specification on Zenodo
-📄 [Monotonic Narrowing for Agent Authority](https://doi.org/10.5281/zenodo.18932404) — formal invariants and adversarial testing
+4 ratified cross-project specs: QSP-1 (encrypted transport), DID Resolution, Entity Verification, Execution Attestation. Collaborating with AgentID, qntm, OATR, ArkForge, AgentNexus.
 
 ## Links
 
-- 🌐 [aeoess.com](https://aeoess.com) — project home
-- 🔬 [Protocol deep-dive](https://aeoess.com/passport.html) — layers, tests, MCP tools, code examples
-- 🛡 [Threat model](https://aeoess.com/threat-model.html) — 50 adversarial scenarios mapped to test files
-- 🤖 [LLM endpoint](https://aeoess.com/llms-full.txt) — machine-readable full protocol reference
-- 📧 tima@aeoess.com
+- [aeoess.com](https://aeoess.com) — Protocol docs, threat model, comparison
+- [llms.txt](https://aeoess.com/llms.txt) — Machine-readable protocol summary
+- [llms-full.txt](https://aeoess.com/llms-full.txt) — Complete technical reference
+- [Research paper](https://doi.org/10.5281/zenodo.18749779) — "The Agent Social Contract"
+- [Dev log](https://aeoess.com/blog.html) — Day-by-day build record
+
+## License
+
+Apache-2.0 — Copyright 2024-2026 Tymofii Pidlisnyi
