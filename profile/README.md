@@ -10,14 +10,14 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 48 core + 32 v2 constitutional modules, 1480 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, persistence layer | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 108 tools. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 48 core modules + 32 v2 constitutional modules, 1507 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 108 tools across all modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
-| [aeoess.com](https://aeoess.com) | Protocol docs, threat model, comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
+| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
-**48 core modules + 32 v2 constitutional modules. 1480 tests. Zero heavy dependencies. Running code.**
+**48 core modules + 32 v2 constitutional modules. 1507 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 8 principles (F-001 to F-008), graduated enforcement (inline/audit/warn)
