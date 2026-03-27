@@ -44,6 +44,7 @@ Gateway state survives restarts. `StorageBackend` interface with 20 methods. `@a
 - [llms.txt](https://aeoess.com/llms.txt) — Machine-readable protocol summary
 - [llms-full.txt](https://aeoess.com/llms-full.txt) — Complete technical reference
 - [Research paper](https://doi.org/10.5281/zenodo.18749779) — "The Agent Social Contract"
+- [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073) — Product lattice model for AI agent governance (March 27, 2026)
 - [Dev log](https://aeoess.com/blog.html) — Day-by-day build record
 
 ## License
