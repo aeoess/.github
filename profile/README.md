@@ -30,7 +30,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 Plus: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), W3C DID & Verifiable Credentials, Google A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, E2E Encrypted Messaging, Obligations, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Bounded Escalation, Oracle Witness Diversity, Data Lifecycle Governance (6 modules), Decision Semantics, Entity Verification, StorageBackend Persistence Layer, and 32 v2 Constitutional Governance modules (separation of powers, circuit breakers, approval fatigue detection, epistemic isolation, blind evaluation, constitutional amendment, and more).
 
-## Persistence (v1.25.0)
+## Persistence (v1.27.0)
 
 Gateway state survives restarts. `StorageBackend` interface with 20 methods. `@aeoess/storage-sqlite` provides production persistence: WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints with external anchoring, startup integrity verification. Receipt bundles for portable, signed export/import.
 
