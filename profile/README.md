@@ -18,7 +18,7 @@ The **Agent Passport System** is the open protocol that makes every agent accoun
 
 **62 core modules + 32 v2 constitutional modules. 1843 tests. Zero heavy dependencies. Running code. MCP server included.**
 
-**Identity** — Ed25519 cryptographic passports, delegation chains with monotonic narrowing, cascade revocation. **Reputation** — Bayesian trust scoring, 5 tiers, cryptographic scarring. **Enforcement** — ProxyGateway boundary: scope check, spend limit, values floor, revocation recheck at execution. **Commerce** — 4-gate checkout, human approval, cumulative spend tracking. **Attribution** — Merkle proofs, contribution ledger, settlement. **Institutional** — Charters, offices, approval policies, federation, reserves. **Communication** — E2E encrypted with forward secrecy. **Data governance** — Access receipts, derivation chains, consent revocation, purpose drift detection.
+**Identity** — Ed25519 cryptographic passports, delegation chains with monotonic narrowing, cascade revocation. **Reputation** — Bayesian trust scoring, 5 tiers, cryptographic scarring. **Enforcement** — ProxyGateway boundary: scope check, spend limit, values floor, revocation recheck at execution. **Commerce** — 4-gate checkout, human approval, cumulative spend tracking. **Attribution** — Merkle proofs, contribution ledger, settlement. **Institutional** — Charters, offices, approval policies, federation, reserves. **Communication** — E2E encrypted with forward secrecy. **Data governance** — Access receipts, derivation chains, consent revocation, purpose drift detection. **Agent Wallets** — Feeless Nano payments, delegation-gated sends, HD key derivation, on-chain block hash receipts.
 
 ## Framework Integration
 
