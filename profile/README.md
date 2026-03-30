@@ -38,6 +38,7 @@ Works alongside any agent framework. Adapters for [CrewAI](https://github.com/ae
 - **IETF Internet-Draft**: draft-pidlisnyi-aps-00
 - **WG ratified specs**: QSP-1 (encrypted transport), DID Resolution, Entity Verification, Execution Attestation
 - **Papers**: [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) · [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404) · [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073)
+- **Cited by**: [PDR in Production](https://doi.org/10.5281/zenodo.19323172) (Nanook & Gerundium, 2026) — independent validation of APS Bayesian model + structuralVerdict/trustVerdict separation
 
 ## Working Group
 
