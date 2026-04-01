@@ -2,13 +2,13 @@
 
 AI agents represent companies and people. They spend real money, access sensitive data, negotiate contracts, and talk to other agents. **No one can verify who they are. No one controls what they do. No one can shut them down when things go wrong.**
 
-The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 4-gate commerce, Merkle attribution, institutional governance. 95 modules. 1,929 tests. One npm install.
+The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 4-gate commerce, Merkle attribution, institutional governance. 95 modules. 1,941 tests. One npm install.
 
 ## What We Ship
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 63 core + 32 v2 constitutional modules, 1929 tests. Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 63 core + 32 v2 constitutional modules, 1941 tests. Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
 | [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 125 tools across all 95 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python wrapper for the protocol | `pip install agent-passport-system` |
@@ -16,7 +16,7 @@ The **Agent Passport System** is the open protocol that makes every agent accoun
 
 ## The Protocol
 
-**63 core modules + 32 v2 constitutional modules. 1929 tests. Zero heavy dependencies. Running code. MCP server included.**
+**63 core modules + 32 v2 constitutional modules. 1941 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 **Identity** — Ed25519 cryptographic passports, delegation chains with monotonic narrowing, cascade revocation. **Attestation** — 4-tier evidence model (Observed, Infrastructure, Provider, Self-declared), Passport Grades 0-3, issuer signatures, issuance dossiers. **Reputation** — Bayesian trust scoring, 5 tiers, evidence diversity, cryptographic scarring. **Enforcement** — ProxyGateway boundary: scope check, spend limit, values floor, revocation recheck at execution. Trust Profile API for partners. **Commerce** — 4-gate checkout, human approval, cumulative spend tracking. **Attribution** — Merkle proofs, contribution ledger, settlement. **Institutional** — Charters, offices, approval policies, federation, reserves. **Communication** — E2E encrypted with forward secrecy. **Data governance** — Access receipts, derivation chains, consent revocation, purpose drift detection. **Agent Wallets** — Feeless Nano payments, delegation-gated sends with Sybil defense, HD key derivation, on-chain block hash receipts.
 
