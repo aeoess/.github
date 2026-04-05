@@ -9,7 +9,7 @@ The **Agent Passport System** is the open protocol that makes every agent accoun
 | Package | What | Install |
 |---------|------|---------|
 | [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — 67 core + 32 v2 constitutional modules, 2,051 tests. Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 125 tools across all 99 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 128 tools across all 99 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python wrapper for the protocol | `pip install agent-passport-system` |
 | [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
