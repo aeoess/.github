@@ -2,21 +2,21 @@
 
 AI agents represent companies and people. They spend real money, access sensitive data, negotiate contracts, and talk to other agents. **No one can verify who they are. No one controls what they do. No one can shut them down when things go wrong.**
 
-The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 5-gate commerce, Merkle attribution, institutional governance. 103 modules. 2,937 tests. One npm install.
+The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 5-gate commerce, Merkle attribution, institutional governance. 123 modules. 2,972 tests. One npm install.
 
 ## What We Ship
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — Core (24 curated functions via `agent-passport-system/core`) + Extended (full 925-export API). 71 core + 32 v2 constitutional modules, 2,937 tests. Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 20 essential tools by default (132 total). Set APS_PROFILE=full for the complete surface. Works with Claude Desktop, Claude Code, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — Core (24 curated functions via `agent-passport-system/core`) + Extended (full 925-export API). 84 core + 39 v2 constitutional modules, 2,972 tests. Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 20 essential tools by default (154 total). Set APS_PROFILE=full for the complete surface. Works with Claude Desktop, Claude Code, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python wrapper for the protocol | `pip install agent-passport-system` |
 | [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
-**71 core modules + 32 v2 constitutional modules = 103 total. 2,937 tests. Zero heavy dependencies. Running code. MCP server included.**
+**84 core modules + 39 v2 constitutional modules = 123 total. 2,972 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 **Identity** — Ed25519 cryptographic passports, delegation chains with monotonic narrowing, cascade revocation. **Attestation** — 4-tier evidence model (Observed, Infrastructure, Provider, Self-declared), Passport Grades 0-3, issuer signatures, issuance dossiers. **Reputation** — Bayesian trust scoring, 5 tiers, evidence diversity, cryptographic scarring. **Enforcement** — ProxyGateway boundary: scope check, spend limit, values floor, revocation recheck at execution. Trust Profile API for partners. **Commerce** — 5-gate checkout (passport, scope, spend limit, merchant allowlist, idempotency), human approval, cumulative spend tracking. **Attribution** — Merkle proofs, contribution ledger, settlement. **Institutional** — Charters, offices, approval policies, federation, reserves. **Communication** — E2E encrypted with forward secrecy. **Data governance** — Access receipts, derivation chains, consent revocation, purpose drift detection. **Agent Wallets** — Feeless Nano payments, delegation-gated sends with Sybil defense, HD key derivation, on-chain block hash receipts.
 
@@ -28,7 +28,7 @@ Works alongside any agent framework. Adapters for [CrewAI](https://github.com/ae
 
 - **IETF Internet-Draft**: draft-pidlisnyi-aps-00
 - **WG ratified specs**: QSP-1 (encrypted transport), DID Resolution, Entity Verification, Execution Attestation
-- **Papers**: [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) · [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404) · [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073) · [Behavioral Derivation Rights](https://doi.org/10.5281/zenodo.19365841) · [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584)
+- **Papers**: [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) · [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404) · [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073) · [Behavioral Derivation Rights](https://doi.org/10.5281/zenodo.19365841) · [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584) · [Governance in the Medium](https://doi.org/10.5281/zenodo.19582550)
 - **Cited by**: [PDR in Production](https://doi.org/10.5281/zenodo.19323172) (Nanook & Gerundium, 2026) — independent validation of APS Bayesian model + structuralVerdict/trustVerdict separation
 
 ## Working Group
