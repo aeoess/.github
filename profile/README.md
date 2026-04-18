@@ -12,7 +12,7 @@ The **Agent Passport System** is the open protocol that makes every agent accoun
 | [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 20 essential tools by default (154 total). Set APS_PROFILE=full for the complete surface. Works with Claude Desktop, Claude Code, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python wrapper for the protocol | `pip install agent-passport-system` |
-| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
+| [aeoess.com](https://aeoess.com) | Protocol docs, threat model (38 adversarial scenarios), comparison pages, signed governance, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
