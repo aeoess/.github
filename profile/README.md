@@ -13,6 +13,7 @@ The **Agent Passport System** is the open protocol that makes every agent accoun
 | [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python wrapper for the protocol | `pip install agent-passport-system` |
 | [aeoess.com](https://aeoess.com) | Protocol docs, threat model (38 adversarial scenarios), comparison pages, signed governance, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
+| [Agent Ecosystem Directory](https://aeoess.github.io/agent-ecosystem-map/) | Community directory of projects, people, and threads in agent infrastructure. 18 projects, 115 people, 93 threads, live GitHub data. Looking for co-maintainers from other projects in the directory | [repo](https://github.com/aeoess/agent-ecosystem-map) |
 
 ## The Protocol
 
