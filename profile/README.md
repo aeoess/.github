@@ -50,7 +50,6 @@ Building interoperability standards with AgentID, qntm, OATR, ArkForge, Guardian
 - [llms-full.txt](https://aeoess.com/llms-full.txt) — Complete technical reference (for AI agents)
 - [Dev log](https://aeoess.com/blog.html) — Day-by-day build record, started Feb 18, 2026
 - [Working Group](https://aeoess.com/working-group.html) — Ratified specs, participants, how to join
-- [The Agent Times](https://theagenttimes.com) — First production deployment of APS governance
 
 ## License
 
