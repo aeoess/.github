@@ -2,7 +2,7 @@
 
 AI agents represent companies and people. They spend real money, access sensitive data, negotiate contracts, and talk to other agents. **No one can verify who they are. No one controls what they do. No one can shut them down when things go wrong.**
 
-The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 5-gate commerce, Merkle attribution, institutional governance. 125 modules. 2,410 tests. One npm install.
+The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 5-gate commerce, Merkle attribution, institutional governance. 126 modules. 2,410 tests. One npm install.
 
 ## What We Ship
 
