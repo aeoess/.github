@@ -37,6 +37,7 @@ Works alongside any agent framework. Adapters for [CrewAI](https://github.com/ae
   - [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584)
   - [Governance in the Medium](https://doi.org/10.5281/zenodo.19582550)
   - [Cognitive Attestation](https://doi.org/10.5281/zenodo.19646276)
+  - [The Evidence-Safety Gap](https://doi.org/10.5281/zenodo.19914628)
 - **Cited by**: [PDR in Production](https://doi.org/10.5281/zenodo.19323172) (Nanook & Gerundium, 2026) — independent validation of APS Bayesian model + structuralVerdict/trustVerdict separation
 
 ## Working Group
