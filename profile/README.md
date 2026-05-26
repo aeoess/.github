@@ -2,13 +2,13 @@
 
 AI agents represent companies and people. They spend real money, access sensitive data, negotiate contracts, and talk to other agents. **No one can verify who they are. No one controls what they do. No one can shut them down when things go wrong.**
 
-The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 5-gate commerce, Merkle attribution, institutional governance. 110 modules. 2,966 tests. One npm install.
+The **Agent Passport System** is the open protocol that makes every agent accountable. Cryptographic identity, scoped delegation, earned reputation, gateway enforcement, 5-gate commerce, Merkle attribution, institutional governance. 110 modules. 2,884 tests. One npm install.
 
 ## What We Ship
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — Core (24 curated functions via `agent-passport-system/core`) + Extended (full 925-export API). 84 core + 26 v2 constitutional modules, 2,966 tests. Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | SDK — Core (24 curated functions via `agent-passport-system/core`) + Extended (full 925-export API). 84 core + 26 v2 constitutional modules, 2,884 tests. Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, data lifecycle governance, Intent Network | `npm i agent-passport-system` |
 | [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server — 20 essential tools by default, 150 total across the full protocol surface. Set APS_PROFILE=full for the complete surface. Works with Claude Desktop, Claude Code, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [@aeoess/storage-sqlite](https://github.com/aeoess/agent-passport-storage-sqlite) | SQLite persistence — WAL mode, atomic transactions, GDPR tombstoning, signed checkpoints. Gateway state survives restarts. | `npm i @aeoess/storage-sqlite` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python wrapper for the protocol | `pip install agent-passport-system` |
@@ -17,7 +17,7 @@ The **Agent Passport System** is the open protocol that makes every agent accoun
 
 ## The Protocol
 
-**84 core modules + 26 v2 constitutional modules = 127 total. 2,966 tests. Zero heavy dependencies. Running code. MCP server included.**
+**84 core modules + 26 v2 constitutional modules = 127 total. 2,884 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 **Identity** — Ed25519 cryptographic passports, delegation chains with monotonic narrowing, cascade revocation. **Attestation** — 4-tier evidence model (Observed, Infrastructure, Provider, Self-declared), Passport Grades 0-3, issuer signatures, issuance dossiers. **Reputation** — Bayesian trust scoring, 5 tiers, evidence diversity, cryptographic scarring. **Enforcement** — ProxyGateway boundary: scope check, spend limit, values floor, revocation recheck at execution. Trust Profile API for partners. **Commerce** — 5-gate checkout (passport, scope, spend limit, merchant allowlist, idempotency), human approval, cumulative spend tracking. **Attribution** — Merkle proofs, contribution ledger, settlement. **Institutional** — Charters, offices, approval policies, federation, reserves. **Communication** — E2E encrypted with forward secrecy. **Data governance** — Access receipts, derivation chains, consent revocation, purpose drift detection. **Wallet binding** — Cryptographic identity attestation across Nano, Solana, Ethereum, Base, Bitcoin. Delegation-gated sends with Sybil defense, HD key derivation, signed cross-key proofs.
 
