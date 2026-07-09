@@ -18,13 +18,13 @@ Two rules carry the whole protocol. Authority can only decrease at each transfer
 - **Building an agent or integration** → [`agent-passport-system`](https://github.com/aeoess/agent-passport-system). `npm install agent-passport-system`, import the ~24 curated core functions, working in minutes. Adapters for [CrewAI](https://github.com/aeoess/agent-passport-system/blob/main/examples/crewai-governance.ts), [LangChain](https://github.com/aeoess/agent-passport-system/blob/main/src/adapters/langchain.ts), [Google ADK](https://github.com/aeoess/agent-passport-system/blob/main/src/adapters/adk.ts), [A2A](https://github.com/aeoess/agent-passport-system/blob/main/src/adapters/a2a.ts).
 - **Using Claude, Cursor, or any MCP client** → [`agent-passport-system-mcp`](https://github.com/aeoess/agent-passport-mcp). `npx agent-passport-system-mcp` exposes the protocol as tools, 20 essential by default, 150 total.
 - **Verifying someone else's implementation** → [`aps-conformance-suite`](https://github.com/aeoess/aps-conformance-suite). Byte-identical vectors; bring your canonicalizer.
-- **Researching or writing standards** → the [eight papers](https://agent-passport.org/research) with Zenodo DOIs, the IETF Internet-Draft [`draft-pidlisnyi-aps`](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/), and the [agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary) registry.
+- **Researching or writing standards** → the [nine papers](https://agent-passport.org/research) with Zenodo DOIs, the IETF Internet-Draft [`draft-pidlisnyi-aps`](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/), and the [agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary) registry.
 
 ## What we ship
 
 | Package | What | Install |
 |---------|------|---------|
-| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | TypeScript SDK, the canonical reference. 107 modules (84 core + 23 v2 constitutional), 3,932 tests. Identity, delegation chains, cascade revocation, values floor, policy engine, agentic commerce, gateway enforcement, attribution, data lifecycle governance | `npm i agent-passport-system` |
+| [agent-passport-system](https://github.com/aeoess/agent-passport-system) | TypeScript SDK, the canonical reference. 107 modules (84 core + 23 v2 constitutional), 4,026 tests. Identity, delegation chains, cascade revocation, values floor, policy engine, agentic commerce, gateway enforcement, attribution, data lifecycle governance | `npm i agent-passport-system` |
 | [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server, 150 tools across the protocol surface. Claude Desktop, Claude Code, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python implementation of the protocol | `pip install agent-passport-system` |
 | [Go SDK](https://pkg.go.dev/github.com/aeoess/agent-passport-go) | Go implementation, byte-parity-checked against the TypeScript reference | `go get github.com/aeoess/agent-passport-go` |
