@@ -41,7 +41,7 @@ Each receipt states what it proves and what it does not prove. The protocol desc
 ## Standards and research
 
 - **IETF Internet-Draft**: [draft-pidlisnyi-aps](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/)
-- **Papers** (Zenodo DOIs): [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) · [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404) · [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073) · [Behavioral Derivation Rights](https://doi.org/10.5281/zenodo.19476002) · [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584) · [Governance in the Medium](https://doi.org/10.5281/zenodo.19582550) · [Cognitive Attestation](https://doi.org/10.5281/zenodo.19646276) · [The Evidence-Safety Gap](https://doi.org/10.5281/zenodo.19914628)
+- **Papers** (Zenodo DOIs): [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) · [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404) · [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073) · [Behavioral Derivation Rights](https://doi.org/10.5281/zenodo.19476002) · [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584) · [Governance in the Medium](https://doi.org/10.5281/zenodo.19582550) · [Cognitive Attestation](https://doi.org/10.5281/zenodo.19646276) · [The Evidence-Safety Gap](https://doi.org/10.5281/zenodo.19914628) · [Plausibly Wrong](https://doi.org/10.5281/zenodo.21208555)
 - **Vocabulary registry**: [agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary), canonical names and per-system crosswalks, 32 contributed crosswalk files
 
 Apache-2.0 across the protocol. Copyright 2026 Tymofii Pidlisnyi.
