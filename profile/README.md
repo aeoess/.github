@@ -16,7 +16,7 @@ Two rules carry the whole protocol. Authority can only decrease at each transfer
 ## Start here
 
 - **Building an agent or integration** → [`agent-passport-system`](https://github.com/aeoess/agent-passport-system). `npm install agent-passport-system`, import the ~24 curated core functions, working in minutes. Adapters for [CrewAI](https://github.com/aeoess/agent-passport-system/blob/main/examples/crewai-governance.ts), [LangChain](https://github.com/aeoess/agent-passport-system/blob/main/src/adapters/langchain.ts), [Google ADK](https://github.com/aeoess/agent-passport-system/blob/main/src/adapters/adk.ts), [A2A](https://github.com/aeoess/agent-passport-system/blob/main/src/adapters/a2a.ts).
-- **Using Claude, Cursor, or any MCP client** → [`agent-passport-system-mcp`](https://github.com/aeoess/agent-passport-mcp). `npx agent-passport-system-mcp` exposes the protocol as tools, 20 essential by default, 150 total.
+- **Using Claude, Cursor, or any MCP client** → [`agent-passport-system-mcp`](https://github.com/aeoess/agent-passport-mcp). `npx agent-passport-system-mcp` exposes the protocol as tools, 150 by default, or 26 with `APS_PROFILE=essential`.
 - **Verifying someone else's implementation** → [`aps-conformance-suite`](https://github.com/aeoess/aps-conformance-suite). Byte-identical vectors; bring your canonicalizer.
 - **Researching or writing standards** → the [nine papers](https://agent-passport.org/research) with Zenodo DOIs, the IETF Internet-Draft [`draft-pidlisnyi-aps`](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/), and the [agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary) registry.
 
