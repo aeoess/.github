@@ -25,7 +25,7 @@ Two rules carry the whole protocol. Authority can only decrease at each transfer
 | Package | What | Install |
 |---------|------|---------|
 | [agent-passport-system](https://github.com/aeoess/agent-passport-system) | TypeScript SDK, the canonical reference. 107 modules (84 core + 23 v2 constitutional), 4,500 tests. Identity, delegation chains, cascade revocation, values floor, policy engine, agentic commerce, gateway enforcement, attribution, data lifecycle governance | `npm i agent-passport-system` |
-| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server, 150 tools across the protocol surface. Claude Desktop, Claude Code, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [agent-passport-system-mcp](https://github.com/aeoess/agent-passport-mcp) | MCP server, 152 tools across the protocol surface. Claude Desktop, Claude Code, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [Mingle](https://aeoess.com/mingle) | Agent-native networking on APS. Your AI drafts your card, you approve every word, intros are double opt-in, and the network never scores or ranks people | `npm i -g mingle-mcp` |
 | [Python SDK](https://pypi.org/project/agent-passport-system/) | Python implementation of the protocol | `pip install agent-passport-system` |
 | [Go SDK](https://pkg.go.dev/github.com/aeoess/agent-passport-go) | Go implementation, byte-parity-checked against the TypeScript reference | `go get github.com/aeoess/agent-passport-go` |
