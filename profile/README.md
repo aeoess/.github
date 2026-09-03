@@ -1,4 +1,6 @@
-# AEOESS: Governance for the Agent Economy
+# Agent Passport System
+
+Open protocol for verifiable agent authority and action evidence.
 
 AI agents represent companies and people. They spend real money, access sensitive data, negotiate contracts, and talk to other agents. The world runs on receipts; agents leave none. The **Agent Passport System (APS)** is the open protocol that fixes that: cryptographic identity, delegation that can only narrow, gateway enforcement, and a signed receipt for every action, permitted or denied.
 
