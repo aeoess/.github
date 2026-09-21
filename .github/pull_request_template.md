@@ -17,3 +17,7 @@
 ## What this does not change
 
 <!-- Scope limits, so a reviewer knows what is out of bounds. -->
+
+## Checklist
+
+- [ ] If this repository requires a DCO sign-off, every commit is signed off (`git commit -s`), per the [Developer Certificate of Origin](https://developercertificate.org/).
