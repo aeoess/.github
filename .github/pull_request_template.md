@@ -1,23 +1,23 @@
 ## What problem this solves
 
-<!-- What is wrong or missing. Link the issue if there is one. -->
+<!-- What can go wrong today, or what is missing, ambiguous, broken, or impossible to verify. Link the issue if there is one. -->
 
-## Why it matters
+## Why this change was made
 
-<!-- What goes wrong without this change: a failure, an interoperability gap, an ambiguity. -->
+<!-- What this PR changes and why this approach. -->
 
-## What changed
+## User impact
 
-<!-- The smallest change that fixes it. -->
+<!-- What changes for users or downstream consumers. If there is no user-facing impact, say so plainly. -->
 
 ## Evidence
 
-<!-- How a reviewer can check it: a reproduction, a failing case and a passing one, command output. -->
+<!-- How a reviewer can check it: focused tests, before and after behavior, reproduction, command output. -->
 
-## What this does not change
+## Boundaries
 
-<!-- Scope limits, so a reviewer knows what is out of bounds. -->
+<!-- Optional. What this does not change or claim. Delete this section if it is not needed. -->
 
 ## Checklist
 
-- [ ] If this repository requires a DCO sign-off, every commit is signed off (`git commit -s`), per the [Developer Certificate of Origin](https://developercertificate.org/).
+- [ ] If this repository requires a DCO sign-off, every non-merge commit is signed off (`git commit -s`), per the [Developer Certificate of Origin](https://developercertificate.org/).
